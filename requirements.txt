@@ -1,0 +1,7 @@
+# Core project has zero hard dependencies (uses only the Python standard library)
+# so the mock providers run out of the box. Uncomment/add these when wiring
+# up real data providers:
+
+# requests>=2.31.0        # for calling real flight/hotel/weather REST APIs
+# python-dotenv>=1.0.0     # for loading API keys from a .env file
+# anthropic>=0.34.0        # if you want an LLM agent to rewrite/personalize the itinerary text
